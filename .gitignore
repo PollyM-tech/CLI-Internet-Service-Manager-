@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db.backup  # Database backups
+
+# Environment files
+.env
+.env.testing  # Test environment
+.env.local
+.venv
+env/
+venv/
+ENV/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+logs/
+
+# Pipenv: optionally ignore lockfile in dev, include in production/collab
+# Pipfile.lock
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Alembic migrations (ignore versions but keep setup files)
+migrations/versions/*
+!migrations/versions/__init__.py
+!migrations/README
+!migrations/script.py.mako
+
+# Local development configs
+config.ini
+settings.ini
+
+# Faker temporary files
+fake_data/
+
+# CSVs, reports, and exports (optional)
+*.csv
+*.bak
+*.sql
+*.json
+
+# Debug scripts (optional)
+debug.py
