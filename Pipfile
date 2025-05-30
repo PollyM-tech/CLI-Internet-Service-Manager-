@@ -6,12 +6,12 @@ name = "pypi"
 [packages]
 sqlalchemy = "==2.0.35"
 alembic = "==1.13.3"
-faker = "==30.3.0"
 python-dotenv = "==1.0.1"
 python-dateutil = "==2.9.0"
-colorama = "==0.4.6"
 prettytable = "==3.11.0"
 click = "==8.1.7"
+colorama = "*"
+faker = "*"
 
 [dev-packages]
 pytest = "==8.3.3"
